@@ -1,0 +1,267 @@
+body{
+    height: 98vh;
+    background-image: url("assets/bckgrnd.png");
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color:#333333;
+}
+
+main {
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    justify-items: center;
+}
+
+#mypic{
+    width: 200px;
+    height: 200px;
+    border: 3px;
+    border-style: solid;
+    border-color: #2c5fa8;
+    border-radius: 200px;
+    margin-top: 40px;
+}
+
+.icons{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+}
+
+h1{
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#aboutme{
+    margin-top: 25px;
+    margin-right: 12px;
+}
+
+.para{
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.me{
+    padding-bottom: 25px;
+}
+
+.me2{
+    padding-bottom: 50px;
+}
+
+
+#bottsect{
+    border-top-style: none;
+    background-color: rgba(150, 150, 150, 0.6);
+    padding-top: 30px;
+    color: #FFFFFF;
+}
+
+#topborder{
+    border: solid;
+    border-color: white;
+    margin: auto;
+    width: 90%;
+}
+
+#theportfoliopics{
+    margin-left: 15%;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+.one{
+    margin-right: 10px;
+    padding-bottom: 15px;
+    width: 400px;
+    height: auto;
+}
+
+.two{
+    margin-right: 10px;
+    padding-bottom: 15px;
+    width: 400px;
+    height: 182px;
+}
+
+#firstproject{
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    position: absolute;
+    top: 850px;
+    left: 100px;
+}
+#groupproject1{
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    position: absolute;
+    top: 1050px;
+    left: 100px;
+}
+
+#bottomborder{
+    border: solid;
+    border-color: white;
+    margin: auto;
+    width: 90%;
+}
+
+footer{
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+
+    main{
+        justify-items: start;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    body{
+        background-image: url("assets/bckgrnd.png");
+        position: relative;
+        font-family: 'Open Sans', sans-serif;
+        color:#333333;
+
+    }
+
+    nav{
+        padding-left: 5px;
+        padding-bottom: 20px;
+    }
+
+    .icons{
+        padding-top: 30px;
+        padding-left: 8px;
+        padding-bottom: 30px;
+    }
+
+    h1{
+        padding-left: 15px;
+        padding-bottom: 10px;
+        font-size: 50px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    h2{
+        padding-left: 15px;
+        padding-bottom: 10px;
+        font-weight: bold;
+        font-size: 50px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    #aboutme{
+        margin-top: 25px;
+        margin-right: 50%;
+    }
+
+    .para{
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+
+    .me2{
+        padding-bottom: 25px;
+    }
+
+    .me3{
+        padding-bottom: 50px;
+    }
+
+    #mypic{
+        border: 3px;
+        border-style: solid;
+        border-color: #2c5fa8;
+        border-radius: 200px;
+        position: absolute;
+        left: 81%;
+        top: 260px;
+    }
+
+    #bottsect{
+        border-top-style: none;
+        background-color: rgba(150, 150, 150, 0.6);
+        padding-top: 30px;
+        color: #FFFFFF;
+        column-span: all;
+        width: 100%;
+        height: 100%;
+    }
+
+    #topborder{
+        border: solid;
+        border-color: white;
+        margin: auto;
+        width: 90%;
+    }
+
+    #theportfoliopics{
+        position: relative;
+        margin-left: 15%;
+        margin-top: 15px;
+        margin-bottom: 100px;
+    }
+
+    .one{
+        margin-right: 10px;
+        opacity: 0.8;
+    }
+
+    .two{
+        margin-right: 10px;
+    }
+
+    .three{
+        padding-bottom: 15px;
+    }
+
+    #firstproject{
+        color: black;
+        font-weight: bolder;
+        font-size: 30px;
+        position: absolute;
+        top: 12px;
+        left: 10px;
+    }
+    #groupproject1{
+        color: black;
+        font-weight: bolder;
+        font-size: 30px;
+        position: absolute;
+        top: 12px;
+        left: 425px;
+    }
+
+    #bottomborder{
+        border: solid;
+        border-color: white;
+        margin: auto;
+        width: 90%;
+    }
+
+    footer{
+        padding-top: 10px;
+        padding-left: 40%;
+        padding-bottom: 10px;
+    }
+
+}
